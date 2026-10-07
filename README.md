@@ -20,4 +20,3 @@ dotnet publish src\Flow.Launcher.Plugin.Invidious -c Release -r win-x64 --no-sel
 powershell -NoProfile -Command ^
   "Compress-Archive -Path 'src\Flow.Launcher.Plugin.Invidious\bin\Release\win-x64\publish\*' -DestinationPath 'dist\Flow.Launcher.Plugin.Invidious.zip' -Force"
 ```
-</content>
