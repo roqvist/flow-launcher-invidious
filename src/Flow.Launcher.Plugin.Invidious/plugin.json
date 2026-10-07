@@ -7,7 +7,7 @@
   "Author": "roqvist",
   "Version": "1.1.2",
   "Language": "csharp",
-  "Website": "https://codeberg.org/roqvist/flow-launcher-invidious",
+  "Website": "https://github.com/roqvist/flow-launcher-invidious",
   "IcoPath": "Icons\\Invidious-logo.svg",
   "ExecuteFileName": "Flow.Launcher.Plugin.Invidious.dll"
 }
