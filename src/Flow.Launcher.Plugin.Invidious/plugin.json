@@ -1,0 +1,13 @@
+{
+  "$schema": "https://www.flowlauncher.com/schemas/plugin.schema.json",
+  "ID": "3ce56a9aa2ad4ba1ab1113f012e4c31c",
+  "ActionKeyword": "iv",
+  "Name": "Invidious",
+  "Description": "Search videos, channels and playlists via an Invidious instance",
+  "Author": "roqvist",
+  "Version": "1.1.2",
+  "Language": "csharp",
+  "Website": "https://codeberg.org/roqvist/flow-launcher-invidious",
+  "IcoPath": "Icons\\Invidious-logo.svg",
+  "ExecuteFileName": "Flow.Launcher.Plugin.Invidious.dll"
+}

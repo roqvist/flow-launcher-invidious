@@ -1,0 +1,21 @@
+<UserControl x:Class="Flow.Launcher.Plugin.Invidious.SettingsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             d:DesignWidth="500">
+    <StackPanel Margin="16">
+        <TextBlock Text="Invidious instance URL"
+                   FontWeight="Bold"
+                   Margin="0,0,0,4" />
+        <TextBlock Text="Base address of the Invidious instance to search against"
+                   TextWrapping="Wrap"
+                   Opacity="0.7"
+                   Margin="0,0,0,8" />
+        <TextBox x:Name="InstanceUrlTextBox"
+                 Width="420"
+                 HorizontalAlignment="Left"
+                 LostFocus="InstanceUrlTextBox_LostFocus" />
+    </StackPanel>
+</UserControl>
